@@ -1,11 +1,23 @@
 {
-  "name": "instaclone",
+  "name": "instagram",
   "version": "1.0.0",
-  "description": "Instaclone Server",
+  "description": "instagram app",
   "main": "index.js",
   "author": "Aitor Arina",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./index.js"
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "apollo-server-express": "^2.18.2",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.8",
+    "nodemon": "^2.0.6"
   }
 }
