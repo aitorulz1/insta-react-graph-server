@@ -1,0 +1,11 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "Instaclone Server",
+  "main": "index.js",
+  "author": "Aitor Arina",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./index.js"
+  }
+}
